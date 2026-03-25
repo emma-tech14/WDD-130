@@ -21,8 +21,8 @@ h1 {
     color: darkblue;
     padding: .5rem;
 }
-img {
-    width: 200px;
+main img {
+    max-width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -30,7 +30,7 @@ img {
     margin: 0 0 1rem 1rem;
 }
 p {
-    padding: 1rem;
+    padding: o;
 }
 main {
     width: 640px;
