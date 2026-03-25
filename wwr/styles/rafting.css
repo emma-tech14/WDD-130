@@ -5,8 +5,6 @@
 }
 
 :root {
-  --primary-color: #055a05; /* forest green */
-  --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #072633; /* dark slate blue */
   --accent2-color: #fff; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -55,7 +53,7 @@ h2 {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 nav, p, section, article {
     margin: 16px;
