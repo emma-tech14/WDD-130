@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --accent1-color: #072633; /* dark slate blue */
+  --accent2-color: black; /* light golden yellow */
+  --accent3-color: white;
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+}
+header img {
+    width: 80px;
+}
+nav ul {
+    display: flex;
+    gap: 1opx;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    background-color: cornsilk;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    border: black;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h2 {
+    display: grid;
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    text-align: center;
+    margin: 15px 0;
+}
+
+.company-information, h1 {
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+.map {
+    width: 50%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: #eee;
+    border: none;
+    cursor: crosshair;
+}
+.employes {
+    margin-top: 30px;
+    text-align: center;
+}
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.profiles figure {
+    flex: 1;
+}
+.profile img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.adventure-gallery img {
+    width: 100%;
+    border-radius: 5px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #eee;
+}
+.socialmedia {
+    display: flex;
+    gap: 20px;
+}
+.socialmedia img {
+    width: 30px;
+    height: auto;
+    transition: 0.3s;
+}
